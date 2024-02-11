@@ -1,0 +1,43 @@
+body{
+    margin: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.card{
+    display: flex;
+    color: rgb(231, 221, 230);
+    background-color: rgb(49, 2, 49);
+    margin:auto;
+    width:500px ;
+    padding: 20px;
+    justify-content:center;
+    border: 2px dotted;
+    border-bottom: 12px solid rgb(88, 73, 88);
+    border-radius: 10px;
+         transition: 0.3em;
+    
+}
+div {
+    box-shadow: 10px 10px 20px 5px rgb(179, 95, 137) inset;
+}
+img:hover{
+     background-color: rgb(238, 238, 238);
+     opacity: 1; 
+
+}
+
+.avatar {
+    width: 170px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    transition: 0.3em;
+}
